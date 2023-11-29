@@ -1,0 +1,25 @@
+{
+    "data": [
+        {
+            "subjectId": "1",
+            "subjectName": "הנדסה אנליטית"
+        },
+        {
+            "subjectId": "2",
+            "subjectName": "גיאומטריה"
+        },
+        {
+            "subjectId": "3",
+            "subjectName": "אלגברה"
+        },
+        {
+            "subjectId": "4",
+            "subjectName": "מדעים"
+        },
+        {
+            "subjectId": "5",
+            "subjectName": "סטטיסטיקה"
+        }
+       
+    ]
+}

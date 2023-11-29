@@ -1,0 +1,41 @@
+<div class="inner-page">
+    <div>
+        <mat-radio-group (change)="clear()" [formControl]="searchBy">
+            <mat-radio-button [value]="SearchByEnum.ID">חיפוש לפי תעודת זהות</mat-radio-button>
+            <mat-radio-button [value]="SearchByEnum.NAME">חיפוש לפי שם</mat-radio-button>
+        </mat-radio-group>
+    </div>
+    <div class="search">
+        <mat-form-field *ngIf="searchBy.value == SearchByEnum.ID" appearance="outline">
+            <mat-label>הכנס מספר זהות</mat-label>
+            <input [formControl]="searchByStudentId" matInput placeholder="Placeholder">
+            <mat-error>מספר זהות לא תקין</mat-error>
+        </mat-form-field>
+        <mat-form-field *ngIf="searchBy.value == SearchByEnum.NAME" appearance="outline">
+            <mat-label>בחר שם תלמיד</mat-label>
+            <mat-select [formControl]="searchByStudentId">
+                <mat-option *ngFor="let student of studentsList"
+                    [value]="student.studentId">{{student.studentName}}</mat-option>
+            </mat-select>
+        </mat-form-field>
+        <button mat-stroked-button color="accent" 
+        *ngIf="searchBy.value != null" 
+        (click)="handleSearchById()"
+        [disabled]="searchByStudentId.value == null 
+        || searchByStudentId.value == ''
+         || !searchByStudentId.valid "
+        >חפש</button>
+    </div>
+    <div>
+        <div *ngIf="student" class="card">
+            <p><b>תעודת זהות: </b>{{student.studentId}}</p>
+            <p><b>שם פרטי: </b>{{student.firstName}}</p>
+            <p><b>שם משפחה: </b>{{student.lastName}}</p>
+            <p><b>מספר טלפון: </b>{{student.phoneNumber}}</p>
+            <p><b>מספר כיתה: </b>{{student.classNumber}}</p>
+        </div>
+        <button mat-flat-button color="accent" 
+        *ngIf="student" 
+        (click)="handleShowMeetings()"
+        >הצג פגישות של התלמיד</button>
+    </div>

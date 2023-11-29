@@ -1,0 +1,25 @@
+{
+    "data": [
+        {
+            "studentId": "138908876",
+            "studentName": "ראובן כהן"
+        },
+        {
+            "studentId": "226556456",
+            "studentName": "שמעון נרקיס"
+        },
+        {
+            "studentId": "316209845",
+            "studentName": "נחום מילר"
+        },
+        {
+            "studentId": "417658498",
+            "studentName": "יהודה נשר"
+        },
+        {
+            "studentId": "512309887",
+            "studentName": "אשר קליין"
+        }
+       
+    ]
+}

@@ -1,0 +1,94 @@
+.inner-page {
+
+    width: 75%;
+    margin: auto;
+    border: 1px solid;
+    border-radius: 5px;
+    padding: 25px;
+    min-height: 400px;
+    margin-top: 30px;
+
+    .table-holder {
+        background-color: white;
+        padding: 15px;
+        padding-top: 5px;
+        border-radius: 5px;
+        margin-left: 45px;
+        margin-right: 45px;
+    }
+
+    .mat-table {
+        width: 100%;
+    }
+
+    .mat-header-cell {
+        background-color: #393939;
+        color: white;
+    }
+
+    .mat-header-cell:not(:first-child) {
+        padding-right: 0;
+    }
+
+    .mat-header-cell span {
+        font-weight: 600;
+        font-stretch: normal;
+        line-height: normal;
+        letter-spacing: 0.5px;
+    }
+
+    .mat-header-cell:first-child {
+        border-top-right-radius: 5px;
+    }
+
+    .mat-header-cell:last-child {
+        border-top-left-radius: 5px;
+    }
+
+    .mat-header-row {
+        height: 3em;
+    }
+
+    .header {
+        padding: 5px;
+    }
+
+    .id-col {
+        width: 15%;
+        padding-left: 3rem;
+        padding-top: 0px;
+        padding-bottom: 0px;
+    }
+
+    .date-col {
+        width: 15%;
+        padding-left: 3rem;
+        padding-top: 0px;
+        padding-bottom: 0px;
+    }
+
+    .subject-col {
+        width: 20%;
+        padding-left: 3rem;
+        padding-top: 0px;
+        padding-bottom: 0px;
+    }
+
+    .details-col {
+        width: 30%;
+        padding-left: 3rem;
+        padding-top: 0px;
+        padding-bottom: 0px;
+    }
+
+    .next-date-col {
+        width: 20%;
+        padding-left: 3rem;
+        padding-top: 0px;
+        padding-bottom: 0px;
+    }
+
+    .mat-row:nth-child(2n) {
+        background-color: #f2f2f2;
+    }
+}

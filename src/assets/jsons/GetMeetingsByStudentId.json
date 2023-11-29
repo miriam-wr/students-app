@@ -1,0 +1,36 @@
+{
+    "data": [
+        {
+            "meetingId": "1",
+            "studentId": "316209845",
+            "meetingDate": "2023-01-29T12:22:42.098Z",
+            "subjectId": 5,
+            "meetingDetails": "חזרה על פרק א ",
+            "nextMeetingDate": "2023-02-15T12:22:42.098Z"
+        },
+        {
+            "meetingId": "2",
+            "studentId": "316209845",
+            "meetingDate": "2023-02-17T12:22:42.098Z",
+            "subjectId": 2,
+            "meetingDetails": "תירגול מהנלמד בכיתה",
+            "nextMeetingDate": "2023-03-17T12:22:42.098Z"
+        },
+        {
+            "meetingId": "3",
+            "studentId": "316209845",
+            "meetingDate": "2023-02-15T12:22:42.098Z",
+            "subjectId": 2,
+            "meetingDetails": "השלמנו עמודים 10 12 14 בספר",
+            "nextMeetingDate": "2023-02-22T12:22:42.098Z"
+        },
+        {
+            "meetingId": "4",
+            "studentId": "316209845",
+            "meetingDate": "2023-03-17T12:22:42.098Z",
+            "subjectId": 5,
+            "meetingDetails": "ערכנו בחינה, עבר בציון: 85%",
+            "nextMeetingDate": "2023-04-17T12:22:42.098Z"
+        }
+    ]
+}
