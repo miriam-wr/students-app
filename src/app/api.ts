@@ -4,23 +4,23 @@ const BASE_URL = '/assets/jsons';
 export const getMeetingsByStudentIdURL = (studentId: string): string => {
     // after server side development - the url will be:
     // `${BASE_URL}/GetMeetingsByStudentId/${studentId}`
-    return `${BASE_URL}/GetMeetingsByStudentId.json`;
+    return `${BASE_URL}/get-meetings-by-student-id.json`;
 }
 
 export const getSubjectsListURL = (): string => {
     // after server side development - the url will be:
     // `${BASE_URL}/GetSubjectsList`
-    return `${BASE_URL}/GetSubjectsList.json`;
+    return `${BASE_URL}/get-subjects-list.json`;
 }
 
 export const getStudentsListURL = (): string => {
     // after server side development - the url will be:
     // `${BASE_URL}/GetStudentsList`
-    return `${BASE_URL}/GetStudentsList.json`;
+    return `${BASE_URL}/get-students-list.json`;
 }
 
 export const getStudentByIdURL = (studentId: string): string => {
     // after server side development - the url will be:
     // `${BASE_URL}/GetStudentById/${studentId}`
-    return `${BASE_URL}/GetStudentById.json`;
+    return `${BASE_URL}/get-student-by-id.json`;
 }
